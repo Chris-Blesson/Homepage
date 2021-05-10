@@ -1,0 +1,39 @@
+.heading-skeleton {
+    animation-duration       : 12s;
+    animation-fill-mode      : forwards;
+    animation-iteration-count: infinite;
+    animation-name           : preloadAnim;
+    animation-timing-function: linear;
+    background               : #f6f7f8;
+    background               : linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    min-height               : 12px;
+    width                    : 80%;
+}
+
+@keyframes preloadAnim {
+    0% {
+        background-position: -769px 0
+    }
+
+    100% {
+        background-position: 769px 0
+    }
+}
+
+.skeleton-container {
+    width: 100%;
+}
+
+.skeleton-section {
+    display: flex;
+    width: 100%;
+}
+
+.skeleton-container .card-title .heading-skeleton {
+    width: 15%;
+}
+
+.skeleton-container .info .heading-skeleton {
+    margin-top: 3%;
+    width     : 80%;
+}

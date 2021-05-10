@@ -1,0 +1,34 @@
+.header {
+    display        : flex;
+    justify-content: space-between;
+    background     : rgb(227 227 227 / 20%);
+
+}
+
+.header .header-logo {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    font-family    : Pacifico;
+    margin         : 0 2rem;
+}
+
+.left-bicep {
+    padding-right: 5px;
+}
+
+.right-bicep {
+    padding-right: 5px;
+    transform    : scaleX(-1);
+}
+
+.nav-section {
+    padding: 0rem 2rem;
+}
+
+.product-title {
+    overflow    : hidden;
+    white-space : nowrap;
+}
+
+
